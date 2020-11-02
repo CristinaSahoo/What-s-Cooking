@@ -44,8 +44,8 @@ Distribution of the no_ingredients variable.
 
 To classify recipes into class 1 (Italian cuisine) or class 0 (Other cuisine), I built two models. Multinomial Naive Bayes with TFIDF vectorizer, and Logistic Regression with Count Vectorizer.
 
-<img src="./images/fig5.jpg" alt="centered image" width="400"/>
-<img src="./images/fig6.jpg" alt="centered image" width="400"/> 
+<img src="./images/fig5.jpg" alt="centered image" width="500"/>
+<img src="./images/fig6.jpg" alt="centered image" width="500"/> 
 
 |             |   NB with TFIDF |   LR with CV |
 |:------------|----------------:|-------------:|
