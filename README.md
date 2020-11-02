@@ -60,7 +60,8 @@ To classify recipes into class 1 (Italian cuisine) or class 0 (Other cuisine), I
 ## Conclusions and Recommendations
 
 **Conclusions:**  
-The best model for our problem is the Logistic Regression model with CountVectorizer, with an accuracy of 92%.
+
+(1) The best model for our problem is the Logistic Regression model with CountVectorizer, with an accuracy of 94%.
 
 **Data Sources:**  
 
