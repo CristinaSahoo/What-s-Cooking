@@ -32,15 +32,15 @@ How many different types of cuisines does the dataset contain? How many recipes 
 
 What are some of the recipes with the most number of ingredients?
 
-![Fig1](./images/fig1.jpg)
+![Fig2](./images/fig2.jpg)
 
 Which cuisines have the most ingredients, on average?
 
-![Fig1](./images/fig1.jpg)
+![Fig3](./images/fig3.jpg)
 
 Distribution of the no_ingredients variable.
 
-![Fig1](./images/fig1.jpg)
+![Fig4](./images/fig4.jpg)
 
 To classify recipes into class 1 (Italian cuisine) or class 0 (Other cuisine), I built two models. Multinomial Naive Bayes with TFIDF vectorizer, and Logistic Regression with Count Vectorizer.
 
