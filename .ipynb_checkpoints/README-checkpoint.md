@@ -26,6 +26,14 @@ This is a binary classification problem. We are given a dataset containing recip
 
 I used Kaggle's dataset of recipes. Each observation includes the recipe's numerical ID, cuisine, and list of ingredients. This dataset did not need cleaning. I engineered some additional features: number of ingredients for each recipe, and the list of ingredients as a single string. I performed EDA and answered questions about the data.
 
+Distribution of the no_ingredients variable.
+
+![Fig4](./images/fig4.jpg)
+
+Distribution of the Number of Ingredients by Class.
+
+![Fig7](./images/fig7.jpg)
+
 How many different types of cuisines does the dataset contain? How many recipes of each type are there?
 
 ![Fig1](./images/fig1.jpg)
@@ -38,9 +46,9 @@ Which cuisines have the most ingredients, on average?
 
 ![Fig3](./images/fig3.jpg)
 
-Distribution of the no_ingredients variable.
+Top 20 Most Used Words Across All Recipes.
 
-![Fig4](./images/fig4.jpg)
+![Fig8](./images/fig8.jpg)
 
 To classify recipes into class 1 (Italian cuisine) or class 0 (Other cuisine), I built two models. Multinomial Naive Bayes with TFIDF vectorizer, and Logistic Regression with Count Vectorizer.
 
